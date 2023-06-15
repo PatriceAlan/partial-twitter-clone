@@ -1,0 +1,86 @@
+.sit__del{
+    display: flex;
+    justify-content: flex-end;
+    color: red;
+}
+
+.sit__box{
+    padding: 20px 15px 20px 0;
+    border-bottom: 1px solid var(--sayit-background);
+    display: flex;
+}
+
+.sit__body{
+    width: 100%;
+}
+.sit__add{
+    border-bottom: 10px solid var(--sayit-background);
+}
+
+.sit__header{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.sit__name{
+    font-weight: 700;
+}
+.sit__username, .sit__date{
+    color: rgb(101, 119, 134);
+    font-size: 15px;
+}
+
+.sit__header p{
+    margin-right: 5px;
+}
+.sit__left img{
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid var(--sayit-background);
+    margin: 0 20px;
+}
+
+.sit__icons{
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.sit__icons i {
+    color: #c6cacc;
+}
+
+.sit__icons-wrapper{
+display: flex;
+}
+
+.sit__icons-add{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.button__sit{
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    background: var(--sayit-color);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button__sit:hover{
+    background: #4cade9;
+}
+.sit__icons-add i{
+    color: var(--sayit-color);
+    font-size: 23px;
+    margin-right: 15px;
+}
